@@ -5,5 +5,5 @@ return danger.github.api.pulls.createReviewRequest({
     pull_number: number,
     owner,
     repo,
-    ['a-mata-proximity']
+    reviewers: ['a-mata-proximity']
 });
